@@ -1,0 +1,14 @@
+CREATE DATABASE carros;
+USE carros;
+
+CREATE TABLE carros (
+    placa VARCHAR(20) PRIMARY KEY,
+    horaEntrada INT,
+    horaSaida INT,
+    total DECIMAL(10, 2)
+);
+
+CREATE TABLE qtdVagas (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    qtdVagas INT
+);
